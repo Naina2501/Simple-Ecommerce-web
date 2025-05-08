@@ -1,0 +1,32 @@
+let data_product =[
+    {
+        id:1,
+        name:'Loree',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GaZdm59kkSkWaooyL9clFQL-rGx1NieVShUmYsxzSw28vWSVzf4fwXkOYVM3JZ4KEAc&usqp=CAU',
+        new_price:50.00,
+        old_price:80.50
+    },
+    {
+        id:2,
+        name:'lorrrrr',
+        image:'https://i.pinimg.com/236x/aa/ac/f1/aaacf1d1bc343b1c4fa9e9cc4eea9e08.jpg',
+        new_price:50.00,
+        old_price:80.50
+    },
+    {
+        id:3,
+        name:'Sarees',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3zZat42xLYeThOkoKS-GOHrOdaettN74fMYjwl3hEQL1OFYGrKDV_6rPQ-3iV3Jf50nY&usqp=CAU',
+        new_price:50.00,
+        old_price:80.50
+    },
+    {
+        id:4,
+        name:'lorrrrr',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9LrqNYkM5PT666LCfYd1lIYklsZH5OckRQ&s',
+        new_price:50.00,
+        old_price:80.50
+    }
+]
+
+export default data_product;

@@ -1,0 +1,52 @@
+.home{
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75)), url('https://image.slidesdocs.com/responsive-images/background/blue-light-e-commerce-banner-simple-powerpoint-background_fddbc2a1c7__960_540.jpg');
+    display: flex;
+}
+.home-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.home-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.home-left p{
+    color: #171717;
+    font-size: 70px;
+    font-weight: 700;
+}
+.hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hand-icon img{
+    width: 105px;
+}
+.home-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.home-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
