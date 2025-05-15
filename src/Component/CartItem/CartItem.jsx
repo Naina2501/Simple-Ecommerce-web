@@ -30,7 +30,7 @@ const CartItem = () => {
         }
         return null;
       })}
-      <div className='cartitems-down'>
+      <div className='cartitems-down text-white'>
         <div className='cartItems-total' >
          <h1>Cart Total</h1>
          <div>
@@ -49,7 +49,7 @@ const CartItem = () => {
             <h3>${getTotalCartAmount()}</h3>
           </div>
           </div>
-         <button className='btn btn-outline-secondary w-50'>Proceed To checkout</button>
+         <button className='btn btn-outline-info w-50'>Proceed To checkout</button>
         </div>
         <div className="cartitems-promocode">
           <p>If you have promo code , Enter it here</p>

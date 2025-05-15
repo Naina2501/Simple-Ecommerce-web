@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    background: linear-gradient(180deg,#938193 0%,#a099a8 60%) ;
+    gap: 20px;
+    background: linear-gradient(180deg,#b5eed9 0%,#7c76f4 60%) ;
 }
 .footer-logo{
     display: flex;

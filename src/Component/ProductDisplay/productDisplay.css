@@ -26,7 +26,7 @@ border-radius: 10px;
  flex-direction: column;   
 }
 .display-right h1{
-    color: #3d3d3d; 
+    color: #fff9f9; 
     font-weight: 700;
     font-size: 25px;
 }
@@ -35,13 +35,13 @@ border-radius: 10px;
     align-items: center;
     margin-top: 8px;
     gap: 5px;
-    color: #1c1c11;
+    color: #fcfcf7;
     font-size: 16px;
 }
 .display-right-star p{
     margin-left: 10px;
     margin-top: 10px;
-    color: brown;
+    color: rgb(246, 238, 238);
 }
 .display-rigth-prices{
     display: flex;
@@ -61,7 +61,7 @@ border-radius: 10px;
 .display-right-size h1{
     margin-top: 55px;
     font-size: 20px;
-    color: #656565;
+    color: #f5efef;
     font-weight: 600;
 }
 .display-right-sizes{
@@ -99,4 +99,19 @@ border-radius: 10px;
 }
 .display-right-description{
     font-size: 12px;
+}
+@media (max-width:1200px){
+    .productdisplay{
+        height: 70vh;
+        
+
+    }
+    .productdisplay h1{
+        font-size: 40px;
+
+    }
+    .productdisplay hr{
+        width: 160px;
+        height:4px ;
+    }
 }

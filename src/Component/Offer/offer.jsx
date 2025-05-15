@@ -11,7 +11,7 @@ import "./offer.css"
         <button className='btn btn-secondary me-3'>Check Now</button>
       </div>
       <div className="offer-right">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSejUjBN_XzDLISYETFgkmMQMnTGigVYeMQ&s" alt="" height='450' className='rounded rounded-3' />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSejUjBN_XzDLISYETFgkmMQMnTGigVYeMQ&s" alt="" height='350' className='rounded rounded-3' />
       </div>
     </div>
   )
