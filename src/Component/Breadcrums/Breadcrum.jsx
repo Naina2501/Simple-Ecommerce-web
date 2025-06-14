@@ -4,7 +4,7 @@ const Breadcrum = (props) => {
     const {product}=props;
   return (
     <div className='breadcrum'>
-        Home <span className='bi bi-slash-lg'></span>Shop <span className='bi bi-slash-lg '></span>{product.category} <span className='bi bi-slash-lg '></span>{product.name}
+        Home <span className='bi bi-chevron-right'></span>Shop <span className='bi bi-chevron-right '></span>{product.category} <span className='bi bi-chevron-right '></span>{product.name}
       
     </div>
   )

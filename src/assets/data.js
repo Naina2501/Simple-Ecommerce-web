@@ -1,15 +1,15 @@
 let data_product =[
     {
         id:1,
-        name:'Loree',
+        name:' Work wear',
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GaZdm59kkSkWaooyL9clFQL-rGx1NieVShUmYsxzSw28vWSVzf4fwXkOYVM3JZ4KEAc&usqp=CAU',
         new_price:50.00,
         old_price:80.50
     },
     {
         id:2,
-        name:'lorrrrr',
-        image:'https://i.pinimg.com/236x/aa/ac/f1/aaacf1d1bc343b1c4fa9e9cc4eea9e08.jpg',
+        name:'Women acsual jumpsuit',
+        image:'https://i.pinimg.com/originals/01/e5/05/01e505d461b26ae103807eee110242a9.jpg',
         new_price:50.00,
         old_price:80.50
     },
@@ -22,7 +22,7 @@ let data_product =[
     },
     {
         id:4,
-        name:'lorrrrr',
+        name:'Trendy one',
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9LrqNYkM5PT666LCfYd1lIYklsZH5OckRQ&s',
         new_price:50.00,
         old_price:80.50

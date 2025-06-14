@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import "./CartItem.css"
 import { ShopContext } from '../../Context/ShopContext'
 const CartItem = () => {
-  const {all_product_data,cartItems,removeToCart,getTotalCartAmount}=useContext(ShopContext)
+  const {all_product,cartItems,removeToCart,getTotalCartAmount}=useContext(ShopContext)
   return (
     <div className='cartItems'>
       <div className="cartItems-format-main">
@@ -15,16 +15,16 @@ const CartItem = () => {
       </div>
       <hr/>
      {
-      all_product_data.map((e,i)=>{
+      all_product.map((e,i)=>{
         if(cartItems[e.id]>0){
           return  <div>
           <div className="cartIems-format cartItems-format-main">
             <img src={e.image} key={i} alt="" className='carticon-product-icon'/>
             <p>{e.name}</p>
             <p>${e.new_price}</p>
-            <button className='btn btn-outline-dark cartItems-quantity'>{cartItems[e.id]}</button>
+            <button className='btn btn-outline-warning cartItems-quantity'>{cartItems[e.id]}</button>
             <p>${e.new_price * cartItems[e.id]}</p>
-            <button className=' bi bi-x fs-3  rounded rounded-2 btn btn-outline-danger' onClick={()=>{removeToCart(e.id)}}></button>
+            <button className=' bi bi-x fs-3 cartItems-remove-icon  rounded rounded-2 btn btn-outline-danger' onClick={()=>{removeToCart(e.id)}}></button>
           </div>
         </div>
         }

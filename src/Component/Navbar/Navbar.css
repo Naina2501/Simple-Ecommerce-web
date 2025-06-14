@@ -3,7 +3,7 @@
     justify-content: space-around;
     padding: 12px;
     box-shadow: 0 1px 3px -2px rgb(226, 155, 155);
- background: rgba(94, 176, 199, 0.67);
+    background: rgba(94, 176, 199, 0.67);
     align-items: center;
 }
 .nav-logo{
@@ -16,14 +16,14 @@
 }
 .nav-logo p{
     color: #171717;
-    font-size: 32px;  
+    font-size: 30px;  
     font-weight: 600;
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap:50px;
+    gap:40px;
     color: #626262;
     font-size: 16px;
 }
@@ -39,7 +39,7 @@
 }
 .nav-menu hr{
     border: none;
-    width: 80%;
+    width: 85%;
     height: 2px;
     border-radius: 10px;
     background: #232121;
