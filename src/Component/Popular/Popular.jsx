@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import "./popular.css"
-
 import Item from '../Item/Item'
 const Popular = () => {
 const [popularproduct,setPopularProduct]=useState([])
 useEffect(()=>{
-fetch('http://localhost:4000/popular-women').then((response)=>{response.json()}).then((data)=>{setPopularProduct(data)});
+fetch('http://localhost:4000/popular-women').then((response)=>response.json()).then((data)=>setPopularProduct(data));
 },[])
   return (
     <div className='popular'>

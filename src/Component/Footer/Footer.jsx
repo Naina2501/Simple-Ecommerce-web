@@ -2,9 +2,10 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
   return (
-    <div className='footer'>
+   
+     <div className='footer'>
       <div className='footer-logo'>
-      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdV37eP6d91xJYv0E3-wPg7AMqarJ8OUHWQA&s' width='60' className='bg-light'></img>
+      <img src='https://static.vecteezy.com/system/resources/previews/014/322/497/original/shopping-cart-icons-design-in-blue-circle-png.png' width='60' ></img>
       <p>𝔖𝔥𝔬𝔭-𝔬𝔫</p>
       </div>
       <ul className='footer-link'>
@@ -31,6 +32,7 @@ const Footer = () => {
             <p>Copyright@2025-All Right is reserved</p>
         </div>
     </div>
+  
   )
 }
 

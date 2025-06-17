@@ -1,10 +1,13 @@
+
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    background: linear-gradient(180deg,#b5eed9 0%,#7c76f4 60%) ;
+    color: #1a1a1a;
+    gap: 2px;
+    border-radius: 20px;
+    background: linear-gradient(180deg,#525755 0%,#423f87 60%) ;
 }
 .footer-logo{
     display: flex;

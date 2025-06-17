@@ -17,8 +17,8 @@ const CartItem = () => {
      {
       all_product.map((e,i)=>{
         if(cartItems[e.id]>0){
-          return  <div>
-          <div className="cartIems-format cartItems-format-main">
+          return  <div key={i}>
+          <div className="cartIems-format cartItems-format-main" >
             <img src={e.image} key={i} alt="" className='carticon-product-icon'/>
             <p>{e.name}</p>
             <p>${e.new_price}</p>

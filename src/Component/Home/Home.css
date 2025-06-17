@@ -1,3 +1,7 @@
+.Container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .home{
     height: 95vh;
     background: linear-gradient(180deg,#b5eed9 0%,#7c76f4 60%) ;
